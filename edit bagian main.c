@@ -17,3 +17,8 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    char *doc_names[maksimal_documen];
+    int doc_word_counts[maksimal_documen] = {0};
+    int doc_unique_counts[maksimal_documen] = {0};
+    char *unique_words[maksimal_kata];
+    int num_unique_words = 0;
